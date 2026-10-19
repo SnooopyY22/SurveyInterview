@@ -1,0 +1,25 @@
+@SurveyInterview.Server_HostAddress = http://localhost:5035
+
+### Login (publik)
+POST {{SurveyInterview.Server_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+### Daftar survey (publik)
+GET {{SurveyInterview.Server_HostAddress}}/api/survey
+Accept: application/json
+
+### Detail survey (publik)
+GET {{SurveyInterview.Server_HostAddress}}/api/survey/1
+Accept: application/json
+
+### Daftar responden (butuh token)
+GET {{SurveyInterview.Server_HostAddress}}/api/survey/responses
+Accept: application/json
+Authorization: Bearer {{token}}
+
+###

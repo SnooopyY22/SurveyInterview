@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="surveyinterview.client/surveyinterview.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="SurveyInterview.Server/SurveyInterview.Server.csproj" />
+</Solution>

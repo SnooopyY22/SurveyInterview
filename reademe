@@ -1,0 +1,8 @@
+Controllers/   ? tipis, cuma routing & HTTP
+Services/      ? logic bisnis (interface + impl)
+DTOs/          ? request/response shape (kontrak API)
+Mappings/      ? entity ? DTO conversion
+Exceptions/    ? custom exception
+Middleware/    ? global error handler
+Models/        ? entity database (JANGAN expose ke API)
+Data/          ? DbContext

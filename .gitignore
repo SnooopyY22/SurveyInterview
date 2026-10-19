@@ -1,0 +1,21 @@
+# .NET
+bin/
+obj/
+*.user
+*.pubxml.user
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Env
+*.env
+appsettings.*.Local.json
+
+# Logs
+*.log
